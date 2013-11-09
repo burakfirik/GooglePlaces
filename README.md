@@ -1,4 +1,4 @@
 GooglePlaces
 ============
 
--Simple Lawyer app the pinpoint lawyer offices with current location
+-Simple Lawyer app that pinpoints lawyers' offices with current location
