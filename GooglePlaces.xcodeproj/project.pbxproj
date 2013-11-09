@@ -22,6 +22,7 @@
 		AE502463182E442D00E4FA9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE502461182E442D00E4FA9A /* InfoPlist.strings */; };
 		AE502465182E442D00E4FA9A /* GooglePlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE502464182E442D00E4FA9A /* GooglePlacesTests.m */; };
 		AE502470182E44E300E4FA9A /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = AE50246F182E44E300E4FA9A /* Config.m */; };
+		AE502473182E47FF00E4FA9A /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE502472182E47FF00E4FA9A /* MyAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		AE502464182E442D00E4FA9A /* GooglePlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesTests.m; sourceTree = "<group>"; };
 		AE50246E182E44E300E4FA9A /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		AE50246F182E44E300E4FA9A /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		AE502471182E47FF00E4FA9A /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		AE502472182E47FF00E4FA9A /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				AE502448182E442D00E4FA9A /* AppDelegate.h */,
 				AE50246E182E44E300E4FA9A /* Config.h */,
 				AE50246F182E44E300E4FA9A /* Config.m */,
+				AE502471182E47FF00E4FA9A /* MyAnnotation.h */,
+				AE502472182E47FF00E4FA9A /* MyAnnotation.m */,
 				AE502449182E442D00E4FA9A /* AppDelegate.m */,
 				AE50244B182E442D00E4FA9A /* Main.storyboard */,
 				AE50244E182E442D00E4FA9A /* ViewController.h */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE502450182E442D00E4FA9A /* ViewController.m in Sources */,
+				AE502473182E47FF00E4FA9A /* MyAnnotation.m in Sources */,
 				AE502470182E44E300E4FA9A /* Config.m in Sources */,
 				AE50244A182E442D00E4FA9A /* AppDelegate.m in Sources */,
 				AE502446182E442D00E4FA9A /* main.m in Sources */,
