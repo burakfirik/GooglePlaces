@@ -10,4 +10,10 @@
 
 @implementation Config
 
+CLLocationCoordinate2D locationCordinate;
+CLLocationManager *locationManager;
+
+float core_latitude;
+float core_longitude;
+
 @end

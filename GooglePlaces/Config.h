@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface Config : NSObject
+{
+
+}
+
+extern CLLocationCoordinate2D locationCordinate;
+extern CLLocationManager *locationManager;
+
+extern float core_latitude;
+extern float core_longitude;
 
 @end
