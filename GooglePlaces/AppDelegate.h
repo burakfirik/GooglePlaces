@@ -12,6 +12,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong ) NSString *myString;
+@property (strong, nonatomic) UIViewController *viewController;
 
 -(void) initializeLocationManager;
 
