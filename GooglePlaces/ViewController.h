@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyAnnotation.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MKMapViewDelegate>{
+
+
+}
+
+@property (nonatomic, strong) IBOutlet MKMapView *map;
+@property (nonatomic,strong) NSMutableArray *myLawyerData;
 
 @end
